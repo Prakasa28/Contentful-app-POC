@@ -1,0 +1,20 @@
+/* components/FeatureCards.module.css */
+.featureCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.featureCard {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.featureCard h2 {
+  color: #333;
+}

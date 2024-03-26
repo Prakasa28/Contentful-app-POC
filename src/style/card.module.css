@@ -1,0 +1,28 @@
+.cardWraper {
+  background-color: #f0f0f0;
+  padding: 20px;
+  color: #333333;
+  width: 300px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: rgb(66, 66, 66);
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  transition: transform 0.3s;
+}
+
+.cardWraper:hover {
+  transform: translateY(-5px);
+}
+
+.cardWraper > img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-bottom: 0.4rem;
+  object-fit: cover;
+}
